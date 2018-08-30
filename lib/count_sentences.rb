@@ -25,9 +25,12 @@ end
       false
   end
   end
-  binding.pry
+  
 
   def count_sentences
+    binding.pry
+    count = 0
+    self.split(",","?","!" )
 
   end
 end
