@@ -25,6 +25,7 @@ end
       false
   end
   end
+  binding.pry
 
   def count_sentences
 
