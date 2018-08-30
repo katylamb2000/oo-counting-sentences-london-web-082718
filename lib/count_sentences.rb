@@ -28,7 +28,7 @@ end
   
 
   def count_sentences
-    binding.pry
+    #binding.pry
     self..scan(/[^\.!\?\n]*[\.!\?\n]/)
 
   end
