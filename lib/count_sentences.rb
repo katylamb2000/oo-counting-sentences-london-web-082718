@@ -28,8 +28,9 @@ end
   
 
   def count_sentences
-    #binding.pry
-    self.scan(/[^\.!\?\n]*[\.!\?\n]/)
+   arr = []
+    arr = self.split(".", "!", "?")
+    arr.length
 
   end
 end
