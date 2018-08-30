@@ -29,7 +29,7 @@ end
 
   def count_sentences
    arr = []
-    arr = self.split(".", "!", "?")
+    arr = self.split(/\. |\? |\! /)
     arr.length
 
   end
